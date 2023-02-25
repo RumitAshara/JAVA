@@ -2,9 +2,9 @@
 public class AllPattern
 {
 	public static void main(String[] args) {
-		P1();
-		System.out.println();
-		System.out.println();
+		P1(); // function call
+		System.out.println(); // for space purpose only..!
+		System.out.println(); //
 		System.out.println();
 		p2();
 		System.out.println();
