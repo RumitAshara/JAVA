@@ -10,7 +10,7 @@ public class Pattern
 	
 		p4();
 		
-		//p5();
+		p5();
 	
 		p6();
 		
@@ -94,7 +94,8 @@ public class Pattern
 		}//for loop over
 		System.out.println();
 	}
-/* wrong out put
+	
+	
 	public static void p5()
 	{
 		for (int i = 1; i<=5; i++) 
@@ -105,12 +106,14 @@ public class Pattern
 			}
 			for (int j = i; j>=1; j--) 
 				{
-					System.out.print(j);	
+					if(i==2)
+					System.out.print(j+1);
+					else
+					System.out.print(j);
 				}	
 				System.out.println();
 		}
 	}
-*/
 	
 	
 	public static void p6()
