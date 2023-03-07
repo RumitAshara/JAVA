@@ -24,7 +24,7 @@ public class GCD {
 				num2 -= num1;
 			}
 		}
-        // now both numbers are same , therefor we can return either num1 or num2 or both
+        // now both numbers are same , therefor we can return either num1 or num2
         return num1;
     }
 }
